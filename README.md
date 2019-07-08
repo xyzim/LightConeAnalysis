@@ -23,7 +23,7 @@ a.show_image([image1,image2,...])
 ```
 a.show_image([im.image,im.im_pap,im.im_sipm],['Original','Paper','SiPM'])
 ```
-![./readme_images/three_images.png]
+![Three Images](/readme_images/three_images.png)
 
 ## Histograms:
 ```
@@ -41,7 +41,7 @@ hist_sipm = a.histogram(im.im_sipm)
 # display histograms
 a.show_hist([hist,hist_pap,hist_sipm],['Original','Paper','SiPM'])
 ```
-!(./readme_images/three_histograms.png)
+![Three Histograms](/readme_images/three_histograms.png)
 
 ## Display Area Boundaries:
 ```
@@ -58,7 +58,7 @@ plt.figure(figsize=(10,14))
 plt.imshow(edges,cmap='gray')
 plt.show()
 ```
-[Boundaries](./readme_images/edges.png)
+[Boundaries](/readme_images/edges.png)
 
 ## Plotting Statistics:
 ```
